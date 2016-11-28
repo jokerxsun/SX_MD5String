@@ -25,7 +25,6 @@
     for (int i = 0; i < 16; i++) {
         [hash appendFormat:@"%02X", result[i]];
     }
-    
     return [hash uppercaseString];
 }
 
